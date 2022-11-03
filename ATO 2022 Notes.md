@@ -40,7 +40,7 @@
 - Communication can be your Super Power, A way of leading is by being a great communicator
 - Can github be my own personal repo for writing?  Yes, but I'll need to learn markdown a lot better, good for work stuff too
 - https://dev.to/monisnap/bye-bye-postman-let-s-share-your-rest-api-calls-in-team-easily-h6l 
-     Rest Client - an extension for VS Code, you can use in place of postman
+- Rest Client - an extension for VS Code, you can use in place of postman
 - learnbuildteach.com takes you to a Discord server, where James shares a lot 
 
 ###   Verbs not Nouns - writing documentation that users will want to read

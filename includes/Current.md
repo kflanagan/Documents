@@ -16,6 +16,7 @@ Because Ansible is a thing that I have very little exposure to, and it can be in
 
 
 To do this, I have a few ansible playbooks.
+
 https://github.com/kflanagan/Testing/blob/master/ubuntu-setup.yaml
 https://github.com/kflanagan/Testing/blob/master/ansible/Fedora-setup.yaml
 

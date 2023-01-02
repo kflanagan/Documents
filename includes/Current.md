@@ -15,6 +15,7 @@ I have a mix of things at home.
 I run virtual machnies on a physical Desktop computer with Ubuntu Linux on it.  Native virtualization, qemu/KVM, with Virtual Machine Manager as the user interface.
 
 Because Ansible is a thing that I have very little exposure to, and it can be installed on a virtual Linux machine in under 10 minutes, that looked like a good thing to try to get familiar with. 
+https://github.com/kflanagan/Documents/blob/main/includes/Ansible.md
 
 
 To do this, I have a few ansible playbooks, I have commented them with each function, maybe it could be better, but it's a start.

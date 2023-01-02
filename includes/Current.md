@@ -18,6 +18,7 @@ Because Ansible is a thing that I have very little exposure to, and it can be in
 To do this, I have a few ansible playbooks.
 
 https://github.com/kflanagan/Testing/blob/master/ubuntu-setup.yaml
+
 https://github.com/kflanagan/Testing/blob/master/ansible/Fedora-setup.yaml
 
 There are a small number of other files there, mostly ones I got working, but are now inclded in the other playbooks.  Notice that there are zero windows commands in here, that's coming up, but it's different enough that I'm not ready to start that yet.

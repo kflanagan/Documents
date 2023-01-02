@@ -12,6 +12,19 @@ I have a mix of things at home.
 - Physical Windows, Linux, ChromeOS, Android and iOS devices
 - Virtual Linux, and soon Windows machines (Those run on a physical Desktop computer that runs Ubuntu Linux)
 
+Because Ansible is a thing that I have very little exposure to, and it can be installed on a virtual Linux machine in under 10 minutes, that looked like a good thing to try to get familiar with. 
 
 
-## Current projects at work
+To do this, I have a few ansible playbooks.
+https://github.com/kflanagan/Testing/blob/master/ubuntu-setup.yaml
+https://github.com/kflanagan/Testing/blob/master/ansible/Fedora-setup.yaml
+
+There are a small number of other files there, mostly ones I got working, but are now inclded in the other playbooks.  Notice that there are zero windows commands in here, that's coming up, but it's different enough that I'm not ready to start that yet.
+
+## Projects at work
+As responsiblities shift a bit in the new year, I need to get more familiar with the following tools.
+- Tanium
+- UCD
+- Chef
+
+This is to support the new team that I'm part of, take some responsiblities off of the shoulders of folks who are there, and tie some things together. 

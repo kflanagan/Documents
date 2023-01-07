@@ -5,4 +5,5 @@ I'm a corporate IT geek, who plays with things at home that overlap with work. H
 
 
 [My home Ansible project](includes/HomeAnsibleProject.md)
-[All Things Open 2022 Notes](includes/ATO 2022 Notes.md)
+
+[All Things Open 2022 Notes](includes/ATO2022Notes.md)

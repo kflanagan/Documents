@@ -1,6 +1,7 @@
 # Kevin Flanagan
 ## 
-My attempt at writing things in markdown
+Using Markdown on Github as a personal blog.  
+I'm a corporate IT geek, who plays with things at home that overlap with work. Here I'm sharing what I've been up to. 
 
 
-[Current post](includes/Current.md)
+[Current post](includes/HomeAnsibleProject.md)

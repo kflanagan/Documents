@@ -1,4 +1,9 @@
-# 2-Jan-2022
+# 8-Jan-2023
+I've done some inventory work today, now I have a short yaml that will get system info and display it, then check to make sure that / has 3GB free.   I think that the next thing to try, probably next weekend is handling the failure states to conditionally do things on a host.
+
+
+
+# 2-Jan-2023
 Since github doesn't do includes, I'll have to work with the links.
 
 ## Current projects at home

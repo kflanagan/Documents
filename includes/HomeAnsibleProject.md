@@ -1,3 +1,14 @@
+# 16-Jan-2023
+OK, I have my Ansible stuff in "good enough" state.  I learned quite a bit. I'll start something new next, maybe Chef, but that seems to require a good bit more infrastructure to build, where Ansible was about 30 minutes to functional.
+## Linux
+- I have the bare bones "configure a Linux machine like the others for NFS and SMB sharing"
+- Apply all updates
+- Display basic info, disk space etc.
+## Windows
+- Check drive space and show a message if c: has less than 3GB free
+- Apply all updates, and log results to a file
+- Windows is a pain in the ass with the \ vs /.  
+
 # 8-Jan-2023
 I've done some inventory work today, now I have a short yaml that will get system info and display it, then check to make sure that / has 3GB free.   I think that the next thing to try, probably next weekend is handling the failure states to conditionally do things on a host.
 

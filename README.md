@@ -1,9 +1,10 @@
 # Kevin Flanagan
 ## 
-Using Markdown on Github as a personal blog.  
-I'm a corporate IT geek, who plays with things at home that overlap with work. Here I'm sharing what I've been up to. 
+Using Markdown on Github as a personal blog.  Who needs a hosted blog when Github works just fine?  
 
-[General thoughts on things, not necessarially technical](includes/Latest.md)
+I'm a corporate IT geek, who plays with things at home that overlap with work. I also think about politics and living in the US, many good things, but don't ignore the challenges.
+
+[Not so technical things, corporate behavior, politics, etc.](includes/Latest.md)
 
 [AudioBookshelf installation on my Raspberry Pi](includes/audiobookshelf.md)
 

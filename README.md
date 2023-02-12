@@ -4,6 +4,8 @@ Using Markdown on Github as a personal blog.  Who needs a hosted blog when Githu
 
 I'm a corporate IT geek, who plays with things at home that overlap with work. I also think about politics and living in the US, many good things, but don't ignore the challenges.
 
+[Quick find](inclides/quick.md) sshfs
+
 [Not so technical things, corporate behavior, politics, etc.](includes/Latest.md)
 
 [AudioBookshelf installation on my Raspberry Pi](includes/audiobookshelf.md)

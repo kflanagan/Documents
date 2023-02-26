@@ -6,6 +6,8 @@ I'm a corporate IT geek, who plays with things at home that overlap with work. I
 
 [Quick find](includes/quick.md) sshfs
 
+[Bye Bye Pi](includes/ByeByePi.md) 
+
 [Not so technical things, corporate behavior, politics, etc.](includes/Latest.md)
 
 [AudioBookshelf installation on my Raspberry Pi](includes/audiobookshelf.md)

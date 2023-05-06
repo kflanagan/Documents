@@ -4,6 +4,8 @@ Using Markdown on Github as a personal blog.  Who needs a hosted blog when Githu
 
 I'm a corporate IT geek, who plays with things at home that overlap with work. I also think about politics and living in the US, many good things, but don't ignore the challenges.
 
+[AWX - Ansible Web interface](includes/AWX.md)
+
 [Quick find](includes/quick.md) sshfs
 
 [Agile Planning](includes/AgilePlanning.md)

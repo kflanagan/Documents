@@ -1,3 +1,8 @@
+# 4-July - Ansible Semaphore
+It's been a while since I updated this page, today I installed Ansible Semaphonre, a web based GUI for ansible. It requires a database, so a quick MariaDB installation first, then just download, install and configure.
+[Semaphore](https://docs.ansible-semaphore.com/administration-guide/installation)
+It works just fine, given that I just charged forward, not really reading the docs, but looking things up in them when it wasn't obvious it went pretty well.
+I do now need to go back and make the installation more "proper" not use root for the DB, and make Semaphore auto start should be about all, but since they are on a VM that's usually not running, it's not critical that I do it this morning. 
 # 16-Jan-2023
 OK, I have my Ansible stuff in "good enough" state.  I learned quite a bit. I'll start something new next, maybe Chef, but that seems to require a good bit more infrastructure to build, where Ansible was about 30 minutes to functional.
 ## Linux

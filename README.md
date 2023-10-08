@@ -19,3 +19,5 @@ I'm a corporate IT geek, who plays with things at home that overlap with work. I
 [My home Ansible project](includes/HomeAnsibleProject.md)
 
 [All Things Open 2022 Notes](includes/ATO2022Notes.md)
+
+[Thinking about AI tools](includes/AI%20tool%20thoughts.md)

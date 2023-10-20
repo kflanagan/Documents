@@ -38,7 +38,7 @@
 
 ### Using Open Shift as a Sandbox
 
-- developer.redhat.com/developer-sandbox, sign up for developer sandbox, you get 30 days free
+- [Developer Sandbox](https://developers.redhat.com/developer-sandbox), sign up for developer sandbox, you get 30 days free
 - Openshift as a service, this is a way to see more of Ansible Automation Platform
 - slides  
 - This will wipe itself every 30 days, but you can export your config to JSON, and re-import it, so you can get back where you were quickly

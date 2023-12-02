@@ -6,7 +6,7 @@ I'm a corporate IT geek, who plays with things at home that overlap with work. I
 
 [AWX - Ansible Web interface](includes/AWX.md)
 
-[Quick find](includes/quick.md) sshfs
+[Quick finds](includes/quick.md)
 
 [Agile Planning](includes/AgilePlanning.md)
 

@@ -1,4 +1,27 @@
-# 4-July - Ansible Semaphore
+# 14-Jan-2024 - Ansible vault
+
+Another long time since the last update.  
+Ansible Vault is how you can save a password and refer to it in playbooks.
+
+I do not have all of the features at home that corporate environments would have, but this is a great one to not worry about that password in clear text anywhere.
+
+[Ansible Vault docs](https://docs.ansible.com/ansible/2.9/user_guide/vault.html)
+
+The idea is that you secure the password for sudo escalation in the vault and give the vault password at run time. 
+
+To leverage this, I just wrote a 1 line shell script that takes one parameter. 
+
+        #!/bin/bash
+        # A wrapper for a playbook, so I don't have to remember the syntax
+        # Takes one parameter, the full path of the playbook to run
+
+        # The passwd.yaml vault is created in the current directory
+        # ansible-vault create passwd.yaml
+
+        # See /etc/ansible/hosts for the variables syntax and see the line below to call the vault
+        ansible-playbook   --ask-vault-pass --extra-vars '@passwd.yaml' $1 
+
+# 4-July-2023 - Ansible Semaphore
 It's been a while since I updated this page, today I installed Ansible Semaphonre, a web based GUI for ansible. It requires a database, so a quick MariaDB installation first, then just download, install and configure.
 [Semaphore](https://docs.ansible-semaphore.com/administration-guide/installation)
 It works just fine, given that I just charged forward, not really reading the docs, but looking things up in them when it wasn't obvious it went pretty well.

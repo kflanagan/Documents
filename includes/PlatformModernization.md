@@ -12,9 +12,7 @@ It was worth ***every*** step of preparation for the upgrade, even if at the tim
  
 We were told by more than one vendor resource that they had never seen that many versions jumped at once.
 
- 
-
- 
+  
 
 ## Summer of 2023
 

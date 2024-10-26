@@ -3,11 +3,12 @@
   Using Markdown on Github as a personal blog.  Who needs a hosted blog when Github works just fine?  
   
   I'm a corporate IT geek, who plays with things at home that overlap with work. I also think about politics and living in the US, many good things, but don't ignore the challenges.
--
--
-- [UCD Platform modernization](includes/PlatformModernization.md)
-- 
-- [AWX - Ansible Web interface](includes/AWX.md)
+
+  [Docker to Podman](../Linux-DesktopStuff/README.md)
+ 
+  [UCD Platform modernization](includes/PlatformModernization.md)
+ 
+  [AWX - Ansible Web interface](includes/AWX.md)
   
   [Quick finds](includes/quick.md)
   

@@ -27,3 +27,5 @@
   [Thinking about AI tools](includes/AI%20tool%20thoughts.md)
   
   [All Things Open 2023 Notes](includes/ATO2023Notes.md)
+
+  [All Things Open 2024 Notes](includes/ATO2024Notes.md)

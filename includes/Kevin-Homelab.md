@@ -31,11 +31,20 @@ There is a rich community, someone started creating [Helper Scripts](https://com
   
   You get a full GUI and the ability to install all kinds of development tools, for free.
 
-- Containers
+- Containers that you might find interesting
   - [Plex](https://www.plex.tv/), A media server, not fully free or open source, but has features like remote access
-  - Alternatively, an open source media server [Jellyfin](https://community-scripts.github.io/ProxmoxVE/scripts?id=jellyfin)
+  - [Jellyfin](https://community-scripts.github.io/ProxmoxVE/scripts?id=jellyfin) is a different media server, but remove access is not so simple
   - [Piehole](https://community-scripts.github.io/ProxmoxVE/scripts?id=pihole) a network level (whole home) ad blocker
   - [MySQL](https://community-scripts.github.io/ProxmoxVE/scripts?id=mysql) A very full featured database
   - [Grafana](https://community-scripts.github.io/ProxmoxVE/scripts?id=grafana) Data visualization
 
 
+
+In my seemingly never ending moving of home server things around, it looks like I've gotten what I was looking for.  I wanted to have my home server workloads on the one lowest powered system I have. It's an N100 with 16GB of RAM, a 512GB onboard NVME and a 2TB USB attached SSD.
+
+I have Home Assistant in a VM, and containers running  Plex, audiobookshelf, pihole and a debian container that's not yet in use for anything. The utilization is nice and low.  T
+Proxmox does make it easier to set all this up, except for adding that disk and the USB pass through for the Zigbee dongle. 
+
+Here's a look at the utilization as of now.
+
+![alt text](image-1.png)

@@ -97,3 +97,4 @@ Output will look something like this
 /dev/sdb1: UUID="12345678-dc78-4096-1111-c71111111112" TYPE="xfs"
 ```
 
+You would use this to be able to update fstab, USB disks will change device file names (/dev/sda might be /dev/sdb tomorrow if you disconnect it and re-connect it.)  Using the UUID in /etc/fstab means that it will always mount correctly for you.

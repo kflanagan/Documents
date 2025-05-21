@@ -37,14 +37,63 @@ There is a rich community, someone started creating [Helper Scripts](https://com
   - [Piehole](https://community-scripts.github.io/ProxmoxVE/scripts?id=pihole) a network level (whole home) ad blocker
   - [MySQL](https://community-scripts.github.io/ProxmoxVE/scripts?id=mysql) A very full featured database
   - [Grafana](https://community-scripts.github.io/ProxmoxVE/scripts?id=grafana) Data visualization
+  - [Ubuntu Server 24.10](https://community-scripts.github.io/ProxmoxVE/scripts?id=ubuntu2410-vm)
 
 
 
 In my seemingly never ending moving of home server things around, it looks like I've gotten what I was looking for.  I wanted to have my home server workloads on the one lowest powered system I have. It's an N100 with 16GB of RAM, a 512GB onboard NVME and a 2TB USB attached SSD.
 
-I have Home Assistant in a VM, and containers running  Plex, audiobookshelf, pihole and a debian container that's not yet in use for anything. The utilization is nice and low.  T
+I have Home Assistant in a VM, and containers running  Plex, audiobookshelf, pihole and a Ubuntu server VM that has the 2TB storage device dedicated to it, to use as shared storage between containers/VMs on the machine, but also other comptuers in the house. The utilization is nice and low.  T
 Proxmox does make it easier to set all this up, except for adding that disk and the USB pass through for the Zigbee dongle. 
+
+***USB Passthrough of Zigbee dongle***
+To add a USB Device, first select USB Device from the Add menu. 
+
+![alt text](image-3.png)
+
+The select the device in question.  You may have to use this add menu with the device unplugged, then plugged in to make sure you have the right device. 
+
+![alt text](image-2.png)
+
+
+The end result looks like this.
+
+![alt text](image.png)
+
+
+***Adding USB storage***
+
+[One video[(https://www.youtube.com/watch?v=tKD-dgSKBxU)
+
+
 
 Here's a look at the utilization as of now.
 
 ![alt text](image-1.png)
+
+## Types of devices, Zigbee
+
+Zigbee
+
+[Zigbee dongle for the Home Assistant system](https://www.home-assistant.io/connectzbt1/)
+
+The company that makes Home Assistant creates a few add-on devices, this Zigbee dongle works well
+
+[A Zigbee button](https://www.amazon.com/SONOFF-SNZB-01P-Wireless-Supports-Connected/dp/B0CL9JTMWF/ref=ast_sto_dp_puis)
+
+[A smart pass through plug](https://www.amazon.com/THIRDREALITY-Real-time-Monitoring-Compatible-SmartThings/dp/B0BPY2KRHH?ref_=ast_sto_dp&th=1)
+
+
+
+
+## Handy links and commands
+
+**blkid** is used to get the UUID of a disk or partition so that you can mount it irrespective of the device name, sdb sdc, etc. 
+
+Output will look something like this
+```
+[root@EXAMPLE ~]# sudo blkid
+/dev/sda1: UUID="12345678-dc78-4096-1111-c71111111111" TYPE="xfs"
+/dev/sdb1: UUID="12345678-dc78-4096-1111-c71111111112" TYPE="xfs"
+```
+

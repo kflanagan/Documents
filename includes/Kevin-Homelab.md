@@ -75,15 +75,17 @@ Here's a look at the utilization as of now.
 
 Zigbee
 
-[Zigbee dongle for the Home Assistant system](https://www.home-assistant.io/connectzbt1/)
+The company that makes Home Assistant creates a few add-on devices,[ this Zigbee dongle ](https://www.home-assistant.io/connectzbt1/) works well.
 
-The company that makes Home Assistant creates a few add-on devices, this Zigbee dongle works well
 
-[A Zigbee button](https://www.amazon.com/SONOFF-SNZB-01P-Wireless-Supports-Connected/dp/B0CL9JTMWF/ref=ast_sto_dp_puis)
 
-[A smart pass through plug](https://www.amazon.com/THIRDREALITY-Real-time-Monitoring-Compatible-SmartThings/dp/B0BPY2KRHH?ref_=ast_sto_dp&th=1)
+This [Zigbee button](https://www.amazon.com/SONOFF-SNZB-01P-Wireless-Supports-Connected/dp/B0CL9JTMWF/ref=ast_sto_dp_puis) is simple, attractive, and works well
 
-**System Diagram**
+This [Zigbee pass through plug](https://www.amazon.com/THIRDREALITY-Real-time-Monitoring-Compatible-SmartThings/dp/B0BPY2KRHH?ref_=ast_sto_dp&th=1) is also simple and works well
+
+
+This **System Diagram** shows the pieces all talking to some shared storage.  Each container and Virtual Machine are on the home network, this makes it easy to use via browser.
+
 ![System diagram](image-5.png)
 
 ## Handy links and commands
@@ -98,3 +100,9 @@ Output will look something like this
 ```
 
 You would use this to be able to update fstab, USB disks will change device file names (/dev/sda might be /dev/sdb tomorrow if you disconnect it and re-connect it.)  Using the UUID in /etc/fstab means that it will always mount correctly for you.
+
+## Remote access
+
+I have found that Tailscale works well, the only limitation is that it can't be installed on managed devices, like the phone that my employer provides.  That's because it's a VPN and they will not allow a second VPN on the device.  
+
+Tailscale can be installed on the VMs or the LXC containers, as well as your personal laptop, tablet, phone.

@@ -83,8 +83,8 @@ The company that makes Home Assistant creates a few add-on devices, this Zigbee 
 
 [A smart pass through plug](https://www.amazon.com/THIRDREALITY-Real-time-Monitoring-Compatible-SmartThings/dp/B0BPY2KRHH?ref_=ast_sto_dp&th=1)
 
-
-![System diagram](image-4.png)
+**System Diagram**
+![System diagram](image-5.png)
 
 ## Handy links and commands
 

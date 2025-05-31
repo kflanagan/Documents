@@ -33,7 +33,7 @@ There is a rich community, someone started creating [Helper Scripts](https://com
 
 - Containers that you might find interesting
   - [Plex](https://www.plex.tv/), A media server, not fully free or open source, but has features like remote access
-  - [Jellyfin](https://community-scripts.github.io/ProxmoxVE/scripts?id=jellyfin) is a different media server, but remove access is not so simple
+  - [Jellyfin](https://community-scripts.github.io/ProxmoxVE/scripts?id=jellyfin) is a different media server, but remove access is not so simple, see notes below about tailscale
   - [Piehole](https://community-scripts.github.io/ProxmoxVE/scripts?id=pihole) a network level (whole home) ad blocker
   - [MySQL](https://community-scripts.github.io/ProxmoxVE/scripts?id=mysql) A very full featured database
   - [Grafana](https://community-scripts.github.io/ProxmoxVE/scripts?id=grafana) Data visualization
@@ -63,7 +63,7 @@ The end result looks like this.
 
 ***Adding USB storage***
 
-[One video[(https://www.youtube.com/watch?v=tKD-dgSKBxU)
+[This video is pretty helpful](https://www.youtube.com/watch?v=tKD-dgSKBxU) It's similar to the USB passthrough for the Zigbee stick above.
 
 
 

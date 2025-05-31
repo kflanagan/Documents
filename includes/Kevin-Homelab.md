@@ -63,11 +63,13 @@ The end result looks like this.
 
 ***Adding USB storage***
 
-[One video[(https://www.youtube.com/watch?v=tKD-dgSKBxU)
+[This video is not bad](https://www.youtube.com/watch?v=tKD-dgSKBxU)
 
 
+When you have passed the USB disk through, you can mount it, using the UUID, then you can NFS export directories on the disk.
 
-Here's a look at the utilization as of now.
+
+## Here's a look at the utilization as of now.
 
 ![alt text](image-1.png)
 
@@ -98,3 +100,7 @@ Output will look something like this
 ```
 
 You would use this to be able to update fstab, USB disks will change device file names (/dev/sda might be /dev/sdb tomorrow if you disconnect it and re-connect it.)  Using the UUID in /etc/fstab means that it will always mount correctly for you.
+
+
+
+

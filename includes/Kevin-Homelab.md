@@ -26,10 +26,10 @@ You can easily run multiple VMs and several containers at once.
 There is a rich community, someone started creating [Helper Scripts](https://community-scripts.github.io/ProxmoxVE/scripts) These will make it really easy to install many different VMs or containers.
 
 ### Guests
-- Full VM development environment
-  - Fedora Linux
-  
-  You get a full GUI and the ability to install all kinds of development tools, for free.
+- Full development environment in a VM
+
+Ubuntu or Debian are great options, you don't get the GUI, but that's fine, you access these things from your laptop in any case, where you have that.
+
 
 - Containers that you might find interesting
   - [Plex](https://www.plex.tv/), A media server, not fully free or open source, but has features like remote access

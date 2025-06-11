@@ -106,3 +106,8 @@ You would use this to be able to update fstab, USB disks will change device file
 I have found that Tailscale works well, the only limitation is that it can't be installed on managed devices, like the phone that my employer provides.  That's because it's a VPN and they will not allow a second VPN on the device.  
 
 Tailscale can be installed on the VMs or the LXC containers, as well as your personal laptop, tablet, phone.
+
+## What else do you do with the servers and services?
+
+The NFS export from the Ubuntu server is where I put anything that is something I wish to keep, then I periocally sync that to an external disk. 
+Backing up the user home dir is also going to that same external disk for now, but I'm likely to sync it to OneDrive or Google Drive. The options for that look like you need a client and those are a bit funky.  Maybe I'll look for alternatives.  In the mean time, I have a script that I'm working on to do the homedir backups. Some testing is in order.

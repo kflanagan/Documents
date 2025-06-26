@@ -26,14 +26,14 @@ You can easily run multiple VMs and several containers at once.
 There is a rich community, someone started creating [Helper Scripts](https://community-scripts.github.io/ProxmoxVE/scripts) These will make it really easy to install many different VMs or containers.
 
 ### Guests
-- Full VM development environment
-  - Fedora Linux
-  
-  You get a full GUI and the ability to install all kinds of development tools, for free.
+- Full development environment in a VM
+
+Ubuntu or Debian are great options, you don't get the GUI, but that's fine, you access these things from your laptop in any case, where you have that.
+
 
 - Containers that you might find interesting
   - [Plex](https://www.plex.tv/), A media server, not fully free or open source, but has features like remote access
-  - [Jellyfin](https://community-scripts.github.io/ProxmoxVE/scripts?id=jellyfin) is a different media server, but remove access is not so simple
+  - [Jellyfin](https://community-scripts.github.io/ProxmoxVE/scripts?id=jellyfin) is a different media server, but remove access is not so simple, see notes below about tailscale
   - [Piehole](https://community-scripts.github.io/ProxmoxVE/scripts?id=pihole) a network level (whole home) ad blocker
   - [MySQL](https://community-scripts.github.io/ProxmoxVE/scripts?id=mysql) A very full featured database
   - [Grafana](https://community-scripts.github.io/ProxmoxVE/scripts?id=grafana) Data visualization
@@ -63,7 +63,11 @@ The end result looks like this.
 
 ***Adding USB storage***
 
+<<<<<<< HEAD
 [This video is not bad](https://www.youtube.com/watch?v=tKD-dgSKBxU)
+=======
+[This video is pretty helpful](https://www.youtube.com/watch?v=tKD-dgSKBxU) It's similar to the USB passthrough for the Zigbee stick above.
+>>>>>>> 5d4e9b068a2597940ecaf78a8cacf333a6ff95dc
 
 
 When you have passed the USB disk through, you can mount it, using the UUID, then you can NFS export directories on the disk.
@@ -77,16 +81,18 @@ When you have passed the USB disk through, you can mount it, using the UUID, the
 
 Zigbee
 
-[Zigbee dongle for the Home Assistant system](https://www.home-assistant.io/connectzbt1/)
-
-The company that makes Home Assistant creates a few add-on devices, this Zigbee dongle works well
-
-[A Zigbee button](https://www.amazon.com/SONOFF-SNZB-01P-Wireless-Supports-Connected/dp/B0CL9JTMWF/ref=ast_sto_dp_puis)
-
-[A smart pass through plug](https://www.amazon.com/THIRDREALITY-Real-time-Monitoring-Compatible-SmartThings/dp/B0BPY2KRHH?ref_=ast_sto_dp&th=1)
+The company that makes Home Assistant creates a few add-on devices,[ this Zigbee dongle ](https://www.home-assistant.io/connectzbt1/) works well.
 
 
-![System diagram](image-4.png)
+
+This [Zigbee button](https://www.amazon.com/SONOFF-SNZB-01P-Wireless-Supports-Connected/dp/B0CL9JTMWF/ref=ast_sto_dp_puis) is simple, attractive, and works well
+
+This [Zigbee pass through plug](https://www.amazon.com/THIRDREALITY-Real-time-Monitoring-Compatible-SmartThings/dp/B0BPY2KRHH?ref_=ast_sto_dp&th=1) is also simple and works well
+
+
+This **System Diagram** shows the pieces all talking to some shared storage.  Each container and Virtual Machine are on the home network, this makes it easy to use via browser.
+
+![System diagram](image-5.png)
 
 ## Handy links and commands
 
@@ -101,6 +107,19 @@ Output will look something like this
 
 You would use this to be able to update fstab, USB disks will change device file names (/dev/sda might be /dev/sdb tomorrow if you disconnect it and re-connect it.)  Using the UUID in /etc/fstab means that it will always mount correctly for you.
 
+<<<<<<< HEAD
 
 
 
+=======
+## Remote access
+
+I have found that Tailscale works well, the only limitation is that it can't be installed on managed devices, like the phone that my employer provides.  That's because it's a VPN and they will not allow a second VPN on the device.  
+
+Tailscale can be installed on the VMs or the LXC containers, as well as your personal laptop, tablet, phone.
+
+## What else do you do with the servers and services?
+
+The NFS export from the Ubuntu server is where I put anything that is something I wish to keep, then I periocally sync that to an external disk. 
+Backing up the user home dir is also going to that same external disk for now, but I'm likely to sync it to OneDrive or Google Drive. The options for that look like you need a client and those are a bit funky.  Maybe I'll look for alternatives.  In the mean time, I have a script that I'm working on to do the homedir backups. Some testing is in order.
+>>>>>>> 5d4e9b068a2597940ecaf78a8cacf333a6ff95dc

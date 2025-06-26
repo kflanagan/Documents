@@ -14,6 +14,6 @@ How do you know if the time you spend automating things is really paying off?  Y
 
 Now you can say that you saved X number of hours per week, and did Y hours of additional work that hadn't been done in the past. 
 
-  - OIA (Operator Interactions Avoided).  This is to show that there's lost time every time one of your people has to drop their project and react to an incident. Each transition is a number of minutes before that person is actively working. That is additional time saved in work to repair, but the restoration of service happens much faster if one machine does something that 3 different people did a part.
+- OIA (Operator Interactions Avoided).  This is to show that there's lost time every time one of your people has to drop their project and react to an incident. Each transition is a number of minutes before that person is actively working. That is additional time saved in work to repair, but the restoration of service happens much faster if one machine does something that 3 different people did a part.
 
 

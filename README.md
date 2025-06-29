@@ -29,3 +29,5 @@
   [All Things Open 2023 Notes](includes/ATO2023Notes.md)
 
   [All Things Open 2024 Notes](includes/ATO2024Notes.md)
+
+  [Homelab build April 2025](includes/Kevin-Homelab.md)

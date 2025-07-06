@@ -56,18 +56,14 @@ The select the device in question.  You may have to use this add menu with the d
 ![alt text](image-2.png)
 
 
-The end result looks like this.
-
-![alt text](image.png)
+The end result looks like this, with multiple USB devices passed through.
+![alt text](image-6.png)
 
 
 ***Adding USB storage***
 
-<<<<<<< HEAD
 [This video is not bad](https://www.youtube.com/watch?v=tKD-dgSKBxU)
-=======
 [This video is pretty helpful](https://www.youtube.com/watch?v=tKD-dgSKBxU) It's similar to the USB passthrough for the Zigbee stick above.
->>>>>>> 5d4e9b068a2597940ecaf78a8cacf333a6ff95dc
 
 
 When you have passed the USB disk through, you can mount it, using the UUID, then you can NFS export directories on the disk.
@@ -107,11 +103,6 @@ Output will look something like this
 
 You would use this to be able to update fstab, USB disks will change device file names (/dev/sda might be /dev/sdb tomorrow if you disconnect it and re-connect it.)  Using the UUID in /etc/fstab means that it will always mount correctly for you.
 
-<<<<<<< HEAD
-
-
-
-=======
 ## Remote access
 
 I have found that Tailscale works well, the only limitation is that it can't be installed on managed devices, like the phone that my employer provides.  That's because it's a VPN and they will not allow a second VPN on the device.  
@@ -122,4 +113,3 @@ Tailscale can be installed on the VMs or the LXC containers, as well as your per
 
 The NFS export from the Ubuntu server is where I put anything that is something I wish to keep, then I periocally sync that to an external disk. 
 Backing up the user home dir is also going to that same external disk for now, but I'm likely to sync it to OneDrive or Google Drive. The options for that look like you need a client and those are a bit funky.  Maybe I'll look for alternatives.  In the mean time, I have a script that I'm working on to do the homedir backups. Some testing is in order.
->>>>>>> 5d4e9b068a2597940ecaf78a8cacf333a6ff95dc

@@ -3,6 +3,8 @@
 In a homelab you can have a starter place where you can learn some things, and if you re-purpose it later, it makes a good media center or home automaiton computer, or even a light web surfing machine mabe for the kids in the family room
 
 ## Hardware
+The links are for reference, not the best deal at the time.  
+
 A PC with enough storage for everything you want, VMs, data, containers.  That's not really that much storage space needed for most of us.
 
 ### The least expensive [$139](https://www.amazon.com/dp/B0F13Q2SLL?th=1)
@@ -71,7 +73,7 @@ When you have passed the USB disk through, you can mount it, using the UUID, the
 
 ## Here's a look at the utilization as of now.
 
-![alt text](image-1.png)
+![alt text](image-7.png)
 
 ## Types of devices, Zigbee
 
@@ -86,7 +88,9 @@ This [Zigbee button](https://www.amazon.com/SONOFF-SNZB-01P-Wireless-Supports-Co
 This [Zigbee pass through plug](https://www.amazon.com/THIRDREALITY-Real-time-Monitoring-Compatible-SmartThings/dp/B0BPY2KRHH?ref_=ast_sto_dp&th=1) is also simple and works well
 
 
-This **System Diagram** shows the pieces all talking to some shared storage.  Each container and Virtual Machine are on the home network, this makes it easy to use via browser.
+This **System Diagram** shows the pieces all talking to some shared storage.  Each Container and Virtual Machine are on the home network, this makes it easy to use via browser. 
+
+I have changed the containers over time, adding some to explore, removing them, or something that they replaced.  For example, I'm migrating from Plex to Jellyfin, I have both installed now, they use the same storage, so they have the same music library, that's what makes the NFS server really useful.
 
 ![System diagram](image-5.png)
 

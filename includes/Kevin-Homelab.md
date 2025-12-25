@@ -3,7 +3,7 @@
 In a homelab you can have a starter place where you can learn some things, and if you re-purpose it later, it makes a good media center or home automaiton computer, or even a light web surfing machine mabe for the kids in the family room
 
 ## Hardware
-The links are for reference, not the best deal at the time.  
+The links are for reference, these links are out of date, shop for yourself, but these can be seen as  minimums. 
 
 A PC with enough storage for everything you want, VMs, data, containers.  That's not really that much storage space needed for most of us.
 
@@ -55,6 +55,7 @@ To add a USB Device, first select USB Device from the Add menu.
 
 The select the device in question.  You may have to use this add menu with the device unplugged, then plugged in to make sure you have the right device. 
 
+
 ![alt text](image-2.png)
 
 
@@ -91,8 +92,11 @@ This [Zigbee pass through plug](https://www.amazon.com/THIRDREALITY-Real-time-Mo
 This **System Diagram** shows the pieces all talking to some shared storage.  Each Container and Virtual Machine are on the home network, this makes it easy to use via browser. 
 
 I have changed the containers over time, adding some to explore, removing them, or something that they replaced.  For example, I'm migrating from Plex to Jellyfin, I have both installed now, they use the same storage, so they have the same music library, that's what makes the NFS server really useful.
+![Workoad screenshot](image-8.png)
 
-![System diagram](image-5.png)
+
+A logical diagram of the build
+![System diagram](HomelabDiagram12-24-2025.png)
 
 ## Handy links and commands
 

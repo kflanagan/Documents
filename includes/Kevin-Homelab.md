@@ -73,8 +73,10 @@ When you have passed the USB disk through, you can mount it, using the UUID, the
 
 
 ## Here's a look at the utilization as of now.
+You can see a bit of a resource utilization just before the screenshot.  I booted the VM with the full PopOS installation, desktop and all.
 
-![alt text](image-7.png)
+
+![Summary of host](Proxmox-summary-view.png)
 
 ## Types of devices, Zigbee
 
@@ -92,10 +94,12 @@ This [Zigbee pass through plug](https://www.amazon.com/THIRDREALITY-Real-time-Mo
 This **System Diagram** shows the pieces all talking to some shared storage.  Each Container and Virtual Machine are on the home network, this makes it easy to use via browser. 
 
 I have changed the containers over time, adding some to explore, removing them, or something that they replaced.  For example, I'm migrating from Plex to Jellyfin, I have both installed now, they use the same storage, so they have the same music library, that's what makes the NFS server really useful.
-![Workoad screenshot](image-8.png)
+
+![Workoad screenshot](Workload-Screenshot.png)
 
 
 A logical diagram of the build
+
 ![System diagram](HomelabDiagram12-24-2025.png)
 
 ## Handy links and commands

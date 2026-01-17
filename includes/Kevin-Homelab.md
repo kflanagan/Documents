@@ -7,6 +7,9 @@ The links are for reference, these links are out of date, shop for yourself, but
 
 A PC with enough storage for everything you want, VMs, data, containers.  That's not really that much storage space needed for most of us.
 
+
+These links are from a point in time, they are likely to be out of date.
+
 ### The least expensive [$139](https://www.amazon.com/dp/B0F13Q2SLL?th=1)
 I would expect to run one VM, and a couple of containers at once. 
 - N150 
@@ -30,7 +33,7 @@ There is a rich community, someone started creating [Helper Scripts](https://com
 ### Guests
 - Full development environment in a VM
 
-Ubuntu or Debian are great options, you don't get the GUI, but that's fine, you access these things from your laptop in any case, where you have that.
+Ubuntu or Debian are great options, you don't get the GUI from the helper scripts, but you can build your own VM using an ISO.
 
 
 - Containers that you might find interesting
@@ -51,16 +54,16 @@ Proxmox does make it easier to set all this up, except for adding that disk and 
 ***USB Passthrough of Zigbee dongle***
 To add a USB Device, first select USB Device from the Add menu. 
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 The select the device in question.  You may have to use this add menu with the device unplugged, then plugged in to make sure you have the right device. 
 
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 
 The end result looks like this, with multiple USB devices passed through.
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 
 ***Adding USB storage***
@@ -76,7 +79,7 @@ When you have passed the USB disk through, you can mount it, using the UUID, the
 You can see a bit of a resource utilization just before the screenshot.  I booted the VM with the full PopOS installation, desktop and all.
 
 
-![Summary of host](Proxmox-summary-view.png)
+![Summary of host](images/Proxmox-summary-view.png)
 
 ## Types of devices, Zigbee
 
@@ -95,12 +98,12 @@ This **System Diagram** shows the pieces all talking to some shared storage.  Ea
 
 I have changed the containers over time, adding some to explore, removing them, or something that they replaced.  For example, I'm migrating from Plex to Jellyfin, I have both installed now, they use the same storage, so they have the same music library, that's what makes the NFS server really useful.
 
-![Workoad screenshot](Workload-Screenshot.png)
+![Workoad screenshot](images/Workload-Screenshot.png)
 
 
 A logical diagram of the build
 
-![System diagram](HomelabDiagram12-24-2025.png)
+![System diagram](images/HomelabDiagram12-24-2025.png)
 
 ## Handy links and commands
 

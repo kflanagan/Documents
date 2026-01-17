@@ -26,7 +26,7 @@ Podman desktop can be used to manage images, to some degree, with an extension.
 
 [Additional link](https://www.redhat.com/en/introduction-to-image-mode-for-red-hat-enterprise-linux-interactive-lab)
 
-![bootc quick overview](image.png)
+![bootc quick overview](images/image.png)
 
 bootc switch, how you can go back and forth with versions of things. 
 
@@ -45,5 +45,5 @@ WSL should support running these images, so now RHEL as your Linux via WSL
 
 Fedora 42 supports this same model, the fundamentals at least
 
-*** To roll back you set a flag and reboot, poof, it's rolled back ***
+**To roll back you set a flag and reboot, poof, it's rolled back**
 

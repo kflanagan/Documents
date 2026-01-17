@@ -1686,7 +1686,7 @@
     "gridSize": 20,
     "gridStep": 5,
     "gridModeEnabled": false,
-    "viewBackgroundColor": "#343a40"
+    "viewBackgroundColor": "f0000"
   },
   "files": {}
 }

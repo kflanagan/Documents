@@ -17,7 +17,7 @@ It turned out to be fairly easy to install on Fedora server. I got it going in u
 
 [Docker-compose install doc](https://github.com/ansible/awx/blob/devel/tools/docker-compose/README.md)
 
-![My AWX dashboard](AWXDashboard.png)
+![My AWX dashboard](images/AWXDashboard.png)
 
 You may ask why I did this, of course you will.  
 I did it because it's the best representation that I can do at home, for free, of the Ansible Tower that is used in corporate environments (My job....)

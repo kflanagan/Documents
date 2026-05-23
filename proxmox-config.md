@@ -1,5 +1,5 @@
 # Proxmox Configuration Documentation
-Generated on Sat May 23 04:07:02 PM EDT 2026
+Generated on Sat May 23 04:19:09 PM EDT 2026
 
 ## Virtual Machines
 
@@ -176,6 +176,7 @@ status: running
 - **Memory**: 512MB
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-101-disk-0
+- **Disk Size (rootfs)**: size=5G
 - **Disk Free percentage (rootfs)**: 40.6 percent
 - **Privilege Mode**: Unprivileged
 
@@ -247,6 +248,7 @@ status: running
 - **Memory**: 3072MB
 - **Swap**: 768MB
 - **Disk (rootfs)**: local-lvm:vm-102-disk-1
+- **Disk Size (rootfs)**: size=10G
 - **Disk Free percentage (rootfs)**: 65.0 percent
 - **Privilege Mode**: Privileged
 
@@ -318,6 +320,7 @@ status: running
 - **Memory**: 2048MB
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-103-disk-0
+- **Disk Size (rootfs)**: size=4G
 - **Disk Free percentage (rootfs)**: 45.6 percent
 - **Privilege Mode**: Privileged
 
@@ -389,6 +392,7 @@ status: running
 - **Memory**: 2048MB
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-104-disk-0
+- **Disk Size (rootfs)**: size=8G
 - **Disk Free percentage (rootfs)**: 48.0 percent
 - **Privilege Mode**: Privileged
 
@@ -459,6 +463,7 @@ status: running
 - **Memory**: 2048MB
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-106-disk-0
+- **Disk Size (rootfs)**: size=8G
 - **Disk Free percentage (rootfs)**: 77.1 percent
 - **Privilege Mode**: Privileged
 
@@ -529,6 +534,7 @@ status: running
 - **Memory**: 2048MB
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-107-disk-1
+- **Disk Size (rootfs)**: size=15G
 - **Disk Free percentage (rootfs)**: 28.7 percent
 - **Privilege Mode**: Privileged
 
@@ -598,6 +604,7 @@ status: running
 - **Memory**: 2048MB
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-108-disk-0
+- **Disk Size (rootfs)**: size=10G
 - **Disk Free percentage (rootfs)**: 34.0 percent
 - **Privilege Mode**: Privileged
 
@@ -666,6 +673,7 @@ status: running
 - **Memory**: 4096MB
 - **Swap**: 768MB
 - **Disk (rootfs)**: local-lvm:vm-110-disk-0
+- **Disk Size (rootfs)**: size=25G
 - **Disk Free percentage (rootfs)**: 45.8 percent
 - **Privilege Mode**: Privileged
 
@@ -724,6 +732,7 @@ status: running
 - **Memory**: 2048MB
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-111-disk-0
+- **Disk Size (rootfs)**: size=13G
 - **Disk Free percentage (rootfs)**: 84.1 percent
 - **Privilege Mode**: Unprivileged
 
@@ -780,6 +789,7 @@ status: running
 - **Memory**: 512MB
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-112-disk-0
+- **Disk Size (rootfs)**: size=3G
 - **Disk Free percentage (rootfs)**: 36.9 percent
 - **Privilege Mode**: Unprivileged
 
@@ -846,6 +856,7 @@ status: running
 - **Memory**: 2048MB
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-113-disk-0
+- **Disk Size (rootfs)**: size=20G
 - **Disk Free percentage (rootfs)**: 38.2 percent
 - **Privilege Mode**: Privileged
 
@@ -880,6 +891,7 @@ status: running
 - **Memory**: 1024MB
 - **Swap**: 256MB
 - **Disk (rootfs)**: local-lvm:vm-114-disk-0
+- **Disk Size (rootfs)**: size=4G
 - **Disk Free percentage (rootfs)**: 59.0 percent
 - **Privilege Mode**: Unprivileged
 
@@ -938,6 +950,7 @@ status: running
 - **Memory**: 1024MB
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-115-disk-0
+- **Disk Size (rootfs)**: size=4G
 - **Disk Free percentage (rootfs)**: 43.1 percent
 - **Privilege Mode**: Unprivileged
 
@@ -996,7 +1009,8 @@ status: running
 - **Memory**: 2048MB
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-116-disk-0
-- **Disk Free percentage (rootfs)**: 36.9 percent
+- **Disk Size (rootfs)**: size=8G
+- **Disk Free percentage (rootfs)**: 37.0 percent
 - **Privilege Mode**: Unprivileged
 
 ### Status:
@@ -1054,6 +1068,7 @@ status: running
 - **Memory**: 512MB
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-117-disk-0
+- **Disk Size (rootfs)**: size=9G
 - **Disk Free percentage (rootfs)**: 41.5 percent
 - **Privilege Mode**: Unprivileged
 
@@ -1116,6 +1131,7 @@ status: running
 - **Memory**: 2048MB
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-118-disk-0
+- **Disk Size (rootfs)**: size=8G
 - **Disk Free percentage (rootfs)**: 10.9 percent
 - **Privilege Mode**: Unprivileged
 

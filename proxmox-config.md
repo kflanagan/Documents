@@ -1,5 +1,5 @@
 # Proxmox Configuration Documentation
-Generated on Sat May 23 04:19:09 PM EDT 2026
+Generated on Sat May 23 06:17:30 PM EDT 2026
 
 ## Virtual Machines
 
@@ -177,8 +177,10 @@ status: running
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-101-disk-0
 - **Disk Size (rootfs)**: size=5G
-- **Disk Free percentage (rootfs)**: 40.6 percent
+- **Disk Free percentage (rootfs)**: 40.2 percent
+- **Startup**: order=6
 - **Privilege Mode**: Unprivileged
+- **Uptime**:  18:17:42 up 69 days
 
 ### Status:
 status: running
@@ -250,7 +252,9 @@ status: running
 - **Disk (rootfs)**: local-lvm:vm-102-disk-1
 - **Disk Size (rootfs)**: size=10G
 - **Disk Free percentage (rootfs)**: 65.0 percent
+- **Startup**: order=5
 - **Privilege Mode**: Privileged
+- **Uptime**:  18:17:48 up 54 days
 
 ### Status:
 status: running
@@ -322,7 +326,9 @@ status: running
 - **Disk (rootfs)**: local-lvm:vm-103-disk-0
 - **Disk Size (rootfs)**: size=4G
 - **Disk Free percentage (rootfs)**: 45.6 percent
+- **Startup**: order=4,up=20
 - **Privilege Mode**: Privileged
+- **Uptime**:  18:17:55 up 69 days
 
 ### Status:
 status: running
@@ -393,8 +399,10 @@ status: running
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-104-disk-0
 - **Disk Size (rootfs)**: size=8G
-- **Disk Free percentage (rootfs)**: 48.0 percent
+- **Disk Free percentage (rootfs)**: 48.1 percent
+- **Startup**: order=3,up=30
 - **Privilege Mode**: Privileged
+- **Uptime**:  18:18:02 up 13 days
 
 ### Status:
 status: running
@@ -465,7 +473,9 @@ status: running
 - **Disk (rootfs)**: local-lvm:vm-106-disk-0
 - **Disk Size (rootfs)**: size=8G
 - **Disk Free percentage (rootfs)**: 77.1 percent
+- **Startup**: 
 - **Privilege Mode**: Privileged
+- **Uptime**:  18:18:09 up 54 days
 
 ### Status:
 status: running
@@ -536,7 +546,9 @@ status: running
 - **Disk (rootfs)**: local-lvm:vm-107-disk-1
 - **Disk Size (rootfs)**: size=15G
 - **Disk Free percentage (rootfs)**: 28.7 percent
+- **Startup**: 
 - **Privilege Mode**: Privileged
+- **Uptime**:  18:18:16 up 14 days
 
 ### Status:
 status: running
@@ -606,7 +618,9 @@ status: running
 - **Disk (rootfs)**: local-lvm:vm-108-disk-0
 - **Disk Size (rootfs)**: size=10G
 - **Disk Free percentage (rootfs)**: 34.0 percent
+- **Startup**: order=8
 - **Privilege Mode**: Privileged
+- **Uptime**:  18:18:22 up 69 days
 
 ### Status:
 status: running
@@ -675,7 +689,9 @@ status: running
 - **Disk (rootfs)**: local-lvm:vm-110-disk-0
 - **Disk Size (rootfs)**: size=25G
 - **Disk Free percentage (rootfs)**: 45.8 percent
+- **Startup**: 
 - **Privilege Mode**: Privileged
+- **Uptime**:  18:18:29 up 48 days
 
 ### Status:
 status: running
@@ -734,7 +750,9 @@ status: running
 - **Disk (rootfs)**: local-lvm:vm-111-disk-0
 - **Disk Size (rootfs)**: size=13G
 - **Disk Free percentage (rootfs)**: 84.1 percent
+- **Startup**: 
 - **Privilege Mode**: Unprivileged
+- **Uptime**:  18:18:36 up 54 days
 
 ### Status:
 status: running
@@ -791,7 +809,9 @@ status: running
 - **Disk (rootfs)**: local-lvm:vm-112-disk-0
 - **Disk Size (rootfs)**: size=3G
 - **Disk Free percentage (rootfs)**: 36.9 percent
+- **Startup**: 
 - **Privilege Mode**: Unprivileged
+- **Uptime**:  18:18:43 up 69 days
 
 ### Status:
 status: running
@@ -858,7 +878,9 @@ status: running
 - **Disk (rootfs)**: local-lvm:vm-113-disk-0
 - **Disk Size (rootfs)**: size=20G
 - **Disk Free percentage (rootfs)**: 38.2 percent
+- **Startup**: 
 - **Privilege Mode**: Privileged
+- **Uptime**:  18:18:50 up 54 days
 
 ### Status:
 status: running
@@ -893,7 +915,9 @@ status: running
 - **Disk (rootfs)**: local-lvm:vm-114-disk-0
 - **Disk Size (rootfs)**: size=4G
 - **Disk Free percentage (rootfs)**: 59.0 percent
+- **Startup**: order=99
 - **Privilege Mode**: Unprivileged
+- **Uptime**:  22:18:56 up 69 days
 
 ### Status:
 status: running
@@ -952,7 +976,9 @@ status: running
 - **Disk (rootfs)**: local-lvm:vm-115-disk-0
 - **Disk Size (rootfs)**: size=4G
 - **Disk Free percentage (rootfs)**: 43.1 percent
+- **Startup**: 
 - **Privilege Mode**: Unprivileged
+- **Uptime**:  18:19:03 up 69 days
 
 ### Status:
 status: running
@@ -1010,8 +1036,10 @@ status: running
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-116-disk-0
 - **Disk Size (rootfs)**: size=8G
-- **Disk Free percentage (rootfs)**: 37.0 percent
+- **Disk Free percentage (rootfs)**: 37.4 percent
+- **Startup**: 
 - **Privilege Mode**: Unprivileged
+- **Uptime**:  18:19:10 up 69 days
 
 ### Status:
 status: running
@@ -1070,7 +1098,9 @@ status: running
 - **Disk (rootfs)**: local-lvm:vm-117-disk-0
 - **Disk Size (rootfs)**: size=9G
 - **Disk Free percentage (rootfs)**: 41.5 percent
+- **Startup**: 
 - **Privilege Mode**: Unprivileged
+- **Uptime**:  18:19:18 up 69 days
 
 ### Status:
 status: running
@@ -1133,7 +1163,9 @@ status: running
 - **Disk (rootfs)**: local-lvm:vm-118-disk-0
 - **Disk Size (rootfs)**: size=8G
 - **Disk Free percentage (rootfs)**: 10.9 percent
+- **Startup**: 
 - **Privilege Mode**: Unprivileged
+- **Uptime**:  18:19:25 up 23 days
 
 ### Status:
 status: running
@@ -1146,8 +1178,8 @@ status: running
 - Filesystem               Size  Used Avail Use% Mounted on
 - udev                      16G     0   16G   0% /dev
 - tmpfs                    3.1G  5.1M  3.1G   1% /run
-- /dev/mapper/pve-root      94G   81G  9.0G  90% /
-- tmpfs                     16G   40M   16G   1% /dev/shm
+- /dev/mapper/pve-root      94G   81G  9.1G  90% /
+- tmpfs                     16G   31M   16G   1% /dev/shm
 - efivarfs                 128K   52K   72K  42% /sys/firmware/efi/efivars
 - tmpfs                    5.0M     0  5.0M   0% /run/lock
 - tmpfs                    1.0M     0  1.0M   0% /run/credentials/systemd-journald.service

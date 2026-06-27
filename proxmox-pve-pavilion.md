@@ -1,5 +1,5 @@
 # Proxmox Configuration Documentation
-Generated on Sat May 30 07:28:51 PM EDT 2026
+Generated on Sat May 30 07:34:31 PM EDT 2026
 
 ## Virtual Machines
 
@@ -178,7 +178,7 @@ status: running
 - **Disk Free percentage (rootfs)**: 39.9 percent
 - **Startup**: order=6
 - **Privilege Mode**: Unprivileged
-- **Uptime**:  19:29:01 up  9:55
+- **Uptime**:  19:34:42 up 10:00
 
 ### Status:
 status: running
@@ -252,7 +252,7 @@ status: running
 - **Disk Free percentage (rootfs)**: 45.5 percent
 - **Startup**: order=4,up=20
 - **Privilege Mode**: Privileged
-- **Uptime**:  19:29:08 up  9:55
+- **Uptime**:  19:34:48 up 10:01
 
 ### Status:
 status: running
@@ -326,7 +326,7 @@ status: running
 - **Disk Free percentage (rootfs)**: 48.3 percent
 - **Startup**: order=3,up=30
 - **Privilege Mode**: Privileged
-- **Uptime**:  19:29:14 up  9:56
+- **Uptime**:  19:34:55 up 10:01
 
 ### Status:
 status: running
@@ -399,7 +399,7 @@ status: running
 - **Disk Free percentage (rootfs)**: 73.6 percent
 - **Startup**: 
 - **Privilege Mode**: Privileged
-- **Uptime**:  19:29:20 up  9:55
+- **Uptime**:  19:35:01 up 10:00
 
 ### Status:
 status: running
@@ -472,7 +472,7 @@ status: running
 - **Disk Free percentage (rootfs)**: 28.6 percent
 - **Startup**: 
 - **Privilege Mode**: Privileged
-- **Uptime**:  19:29:27 up 14 min
+- **Uptime**:  19:35:08 up 19 min
 
 ### Status:
 status: running
@@ -543,7 +543,7 @@ status: running
 - **Disk Free percentage (rootfs)**: 58.7 percent
 - **Startup**: 
 - **Privilege Mode**: Privileged
-- **Uptime**:  19:29:33 up  9:55
+- **Uptime**:  19:35:14 up 10:01
 
 ### Status:
 status: running
@@ -566,5 +566,5 @@ status: running
 - /dev/fuse                128M   56K  128M   1% /etc/pve
 - tmpfs                    1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
 - tmpfs                    3.1G  4.0K  3.1G   1% /run/user/0
-- ubuntu-vm:/nfsdata/code  885G  498G  342G  60% /code
+- ubuntu-vm:/nfsdata/code  885G  499G  342G  60% /code
 

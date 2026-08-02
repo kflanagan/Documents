@@ -1,5 +1,5 @@
 # Proxmox Configuration Documentation
-Generated on Sat Jun 27 08:31:30 AM EDT 2026
+Generated on Sat Jul 25 01:41:57 PM EDT 2026
 
 ## Virtual Machines
 
@@ -51,6 +51,7 @@ Generated on Sat Jun 27 08:31:30 AM EDT 2026
 - **smbios1**: uuid=318c759b-642c-4f7b-91a7-b27f8dbb29b4
 - **tablet**: 0
 - **tags**: community-script
+- **usb0**: host=10c4:ea60
 - **vmgenid**: e7df6ed9-2ac0-4690-89ec-74feb91ac98a
 
 ### Status:
@@ -114,7 +115,7 @@ status: running
 - **Disk Free percentage (rootfs)**: 40.1 percent
 - **Startup**: order=6
 - **Privilege Mode**: Unprivileged
-- **Uptime**:  08:31:42 up 3 days
+- **Uptime**:  13:42:10 up 7 days
 
 ### Status:
 status: running
@@ -185,10 +186,10 @@ status: running
 - **Swap**: 768MB
 - **Disk (rootfs)**: local-lvm:vm-102-disk-1
 - **Disk Size (rootfs)**: size=10G
-- **Disk Free percentage (rootfs)**: 65.8 percent
+- **Disk Free percentage (rootfs)**: 65.4 percent
 - **Startup**: order=5
 - **Privilege Mode**: Privileged
-- **Uptime**:  08:31:51 up 3 days
+- **Uptime**:  13:42:19 up 7 days
 
 ### Status:
 status: running
@@ -259,10 +260,10 @@ status: running
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-103-disk-0
 - **Disk Size (rootfs)**: size=4G
-- **Disk Free percentage (rootfs)**: 46.3 percent
+- **Disk Free percentage (rootfs)**: 46.1 percent
 - **Startup**: order=4,up=20
 - **Privilege Mode**: Privileged
-- **Uptime**:  08:32:00 up 3 days
+- **Uptime**:  13:42:29 up 7 days
 
 ### Status:
 status: running
@@ -333,10 +334,10 @@ status: running
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-104-disk-0
 - **Disk Size (rootfs)**: size=8G
-- **Disk Free percentage (rootfs)**: 48.0 percent
+- **Disk Free percentage (rootfs)**: 43.6 percent
 - **Startup**: order=3,up=30
 - **Privilege Mode**: Privileged
-- **Uptime**:  08:32:09 up 3 days
+- **Uptime**:  13:42:38 up 7 days
 
 ### Status:
 status: running
@@ -409,13 +410,78 @@ status: running
 - **Disk Free percentage (rootfs)**: 75.7 percent
 - **Startup**: 
 - **Privilege Mode**: Privileged
-- **Uptime**:  08:32:19 up 3 days
+- **Uptime**:  13:42:47 up 7 days
 
 ### Status:
 status: running
 
 ### IP Addresses:
 - 192.168.1.186/24
+
+## Container ID: 109
+
+### Configuration:
+- **arch**: amd64
+- **cores**: 2
+- **description**: <div align='center'>
+  <a href='https://community-scripts.org' target='_blank' rel='noopener noreferrer'>
+    <img src='https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/images/logo-81x112.png' alt='Logo' style='width:81px;height:112px;'/>
+  </a>
+
+  <h2 style='font-size: 24px; margin: 20px 0;'>qBittorrent LXC</h2>
+
+  <p style='margin: 16px 0;'>
+    <a href='https://community-scripts.org/donate' target='_blank' rel='noopener noreferrer'>
+      <img src='https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F-Sponsoring%20%26%20Donations-FF5E5B' alt='Sponsoring and donations' />
+    </a>
+  </p>
+
+  <p style='margin: 12px 0;'>
+    <a href='https://community-scripts.org/scripts/qbittorrent' target='_blank' rel='noopener noreferrer'>
+      <img src='https://img.shields.io/badge/%F0%9F%93%A6-Open%20Script%20Page-00617f' alt='Open script page' />
+    </a>
+  </p>
+
+  <span style='margin: 0 10px;'>
+    <i class="fa fa-github fa-fw" style="color: #f5f5f5;"></i>
+    <a href='https://github.com/community-scripts/ProxmoxVE' target='_blank' rel='noopener noreferrer' style='text-decoration: none; color: #00617f;'>GitHub</a>
+  </span>
+  <span style='margin: 0 10px;'>
+    <i class="fa fa-comments fa-fw" style="color: #f5f5f5;"></i>
+    <a href='https://github.com/community-scripts/ProxmoxVE/discussions' target='_blank' rel='noopener noreferrer' style='text-decoration: none; color: #00617f;'>Discussions</a>
+  </span>
+  <span style='margin: 0 10px;'>
+    <i class="fa fa-exclamation-circle fa-fw" style="color: #f5f5f5;"></i>
+    <a href='https://github.com/community-scripts/ProxmoxVE/issues' target='_blank' rel='noopener noreferrer' style='text-decoration: none; color: #00617f;'>Issues</a>
+  </span>
+</div>
+- **features**: nesting=1,keyctl=1
+- **hostname**: qbittorrent
+- **memory**: 2048
+- **net0**: name=eth0,bridge=vmbr0,hwaddr=BC:24:11:20:01:5D,ip=dhcp,type=veth
+- **onboot**: 1
+- **ostype**: debian
+- **rootfs**: local-lvm:vm-109-disk-0,size=8G
+- **swap**: 512
+- **tags**: community-script;torrent
+- **timezone**: America/New_York
+- **unprivileged**: 1
+
+### Resources:
+- **Memory**: 2048MB
+- **Swap**: 512MB
+- **Disk (rootfs)**: local-lvm:vm-109-disk-0
+- **Disk Size (rootfs)**: size=8G
+- **Disk Free percentage (rootfs)**: 10.1 percent
+- **Startup**: 
+- **Privilege Mode**: Unprivileged
+- **Uptime**:  13:42:56 up 7 days
+
+### Status:
+status: running
+
+### IP Addresses:
+- 192.168.1.44/24
 
 ## Container ID: 112
 
@@ -457,6 +523,7 @@ status: running
 - **features**: nesting=1,keyctl=1
 - **hostname**: metube
 - **memory**: 2048
+- **mp0**: /data/plex,mp=/media/downloads
 - **net0**: name=eth0,bridge=vmbr0,hwaddr=BC:24:11:C7:AA:72,ip=dhcp,type=veth
 - **onboot**: 1
 - **ostype**: debian
@@ -471,10 +538,10 @@ status: running
 - **Swap**: 512MB
 - **Disk (rootfs)**: local-lvm:vm-112-disk-0
 - **Disk Size (rootfs)**: size=10G
-- **Disk Free percentage (rootfs)**: 28.4 percent
+- **Disk Free percentage (rootfs)**: 28.6 percent
 - **Startup**: 
 - **Privilege Mode**: Unprivileged
-- **Uptime**:  08:32:28 up 3 days
+- **Uptime**:  13:43:06 up 7 days
 
 ### Status:
 status: running
@@ -486,15 +553,15 @@ status: running
 
 - Filesystem            Size  Used Avail Use% Mounted on
 - udev                  6.8G     0  6.8G   0% /dev
-- tmpfs                 1.6G  3.1M  1.6G   1% /run
-- /dev/mapper/pve-root   94G  6.8G   83G   8% /
-- tmpfs                 7.8G   63M  7.7G   1% /dev/shm
+- tmpfs                 1.6G  3.2M  1.6G   1% /run
+- /dev/mapper/pve-root   94G  7.3G   82G   9% /
+- tmpfs                 7.8G   42M  7.7G   1% /dev/shm
 - efivarfs              192K  101K   87K  54% /sys/firmware/efi/efivars
 - tmpfs                 5.0M     0  5.0M   0% /run/lock
 - tmpfs                 1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 - tmpfs                 7.8G     0  7.8G   0% /tmp
 - /dev/sda2            1022M  9.1M 1013M   1% /boot/efi
-- data                  900G  489G  412G  55% /data
+- data                  900G  502G  398G  56% /data
 - /dev/fuse             128M   52K  128M   1% /etc/pve
 - tmpfs                 1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
 - tmpfs                 1.6G  4.0K  1.6G   1% /run/user/0

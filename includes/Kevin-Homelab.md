@@ -1,4 +1,5 @@
 # Building a homelab
+Updated 27-Sep-2026
 
 In a homelab you can have a starter place where you can learn some things, and if you re-purpose it later, it makes a good media center or home automaiton computer, or even a light web surfing machine mabe for the kids in the family room
 
@@ -69,10 +70,19 @@ The end result looks like this, with multiple USB devices passed through.
 ***Adding USB storage***
 
 [This video is not bad](https://www.youtube.com/watch?v=tKD-dgSKBxU)
-[This video is pretty helpful](https://www.youtube.com/watch?v=tKD-dgSKBxU) It's similar to the USB passthrough for the Zigbee stick above.
+
+[This video is pretty helpful](https://www.youtube.com/watch?v=tKD-dgSKBxU) 
+
+It's similar to the USB passthrough for the Zigbee stick above.
 
 
 When you have passed the USB disk through, you can mount it, using the UUID, then you can NFS export directories on the disk.
+
+***ZFS volumes***
+
+You can both pass a ZFS volume through to a guest, known as Bind Mounts and make it a network share concurrently. More info to come here.
+
+
 
 
 ## Here's a look at the utilization as of now.
@@ -98,12 +108,12 @@ This **System Diagram** shows the pieces all talking to some shared storage.  Ea
 
 I have changed the containers over time, adding some to explore, removing them, or something that they replaced.  For example, I'm migrating from Plex to Jellyfin, I have both installed now, they use the same storage, so they have the same music library, that's what makes the NFS server really useful.
 
-![Workoad screenshot](images/Workload-Screenshot.png)
+![Workoad screenshot](images/PVE-Dashboard.png)
 
 
-A logical diagram of the build
+A logical diagram of the build 9-27-2026
 
-![System diagram](images/HomelabDiagram12-24-2025.png)
+![System diagram](images/HomeLab-9-27-2026.png)
 
 ## Handy links and commands
 

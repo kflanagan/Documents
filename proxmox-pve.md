@@ -1,5 +1,5 @@
 # Proxmox Configuration Documentation
-> Generated on Sat Sep 26 04:13:08 PM EDT 2026
+> Generated on Mon Oct 26 06:01:17 AM EDT 2026
 
 ## Virtual Machines
 
@@ -37,10 +37,10 @@
 | Swap | 512MB |
 | Disk (rootfs) | local-lvm:vm-101-disk-1 |
 | Disk Size (rootfs) | size=5G |
-| Disk Free percentage (rootfs) | 44.0 percent |
+| Disk Free percentage (rootfs) | 40.0 percent |
 | Startup | order=6 |
 | Privilege Mode | Unprivileged |
-| Uptime |  16:13:28 up 6 days |
+| Uptime |  06:01:24 up 14:36 |
 
 ### IP Addresses:
 - `192.168.1.248/24`
@@ -90,13 +90,14 @@
 | Swap | 768MB |
 | Disk (rootfs) | local-lvm:vm-102-disk-1 |
 | Disk Size (rootfs) | size=10G |
-| Disk Free percentage (rootfs) | 73.3 percent |
+| Disk Free percentage (rootfs) | 69.1 percent |
 | Startup | order=5 |
 | Privilege Mode | Privileged |
-| Uptime |  16:13:47 up 6 days |
+| Uptime |  06:01:30 up 14:36 |
 
 ### IP Addresses:
 - `192.168.1.74/24`
+- `100.94.126.128/32`
 
 ## Container ID: 103
 
@@ -144,10 +145,10 @@
 | Swap | 512MB |
 | Disk (rootfs) | local-lvm:vm-103-disk-1 |
 | Disk Size (rootfs) | size=4G |
-| Disk Free percentage (rootfs) | 51.5 percent |
+| Disk Free percentage (rootfs) | 43.1 percent |
 | Startup | order=4,up=20 |
 | Privilege Mode | Privileged |
-| Uptime |  16:14:06 up 6 days |
+| Uptime |  06:01:36 up 14:37 |
 
 ### IP Addresses:
 - `192.168.1.180/24`
@@ -199,10 +200,10 @@
 | Swap | 512MB |
 | Disk (rootfs) | local-lvm:vm-104-disk-0 |
 | Disk Size (rootfs) | size=8G |
-| Disk Free percentage (rootfs) | 46.2 percent |
+| Disk Free percentage (rootfs) | 41.2 percent |
 | Startup | order=3,up=30 |
 | Privilege Mode | Privileged |
-| Uptime |  16:14:25 up 6 days |
+| Uptime |  06:01:42 up 14:37 |
 
 ### IP Addresses:
 - `192.168.1.203/24`
@@ -225,7 +226,7 @@
 | **net0** | name=eth0,bridge=vmbr0,hwaddr=BC:24:11:4D:0E:09,ip=dhcp,ip6=auto,type=veth |
 | **onboot** | 1 |
 | **ostype** | debian |
-| **rootfs** | local-lvm:vm-106-disk-0,size=8G |
+| **rootfs** | local-lvm:vm-106-disk-0,size=12G |
 | **swap** | 512 |
 | **tags** | community-script;pdf-editor;tailscale |
 | **lxc.cgroup2.devices.allow** | a |
@@ -251,11 +252,11 @@
 | Memory | 2048MB |
 | Swap | 512MB |
 | Disk (rootfs) | local-lvm:vm-106-disk-0 |
-| Disk Size (rootfs) | size=8G |
-| Disk Free percentage (rootfs) | 82.8 percent |
+| Disk Size (rootfs) | size=12G |
+| Disk Free percentage (rootfs) | 48.2 percent |
 | Startup |  |
 | Privilege Mode | Privileged |
-| Uptime |  16:14:44 up 6 days |
+| Uptime |  06:01:49 up 14:36 |
 
 ### IP Addresses:
 - `192.168.1.186/24`
@@ -291,10 +292,10 @@
 | Swap | 512MB |
 | Disk (rootfs) | local-lvm:vm-109-disk-0 |
 | Disk Size (rootfs) | size=8G |
-| Disk Free percentage (rootfs) | 10.2 percent |
+| Disk Free percentage (rootfs) | 10.8 percent |
 | Startup |  |
 | Privilege Mode | Unprivileged |
-| Uptime |  16:15:02 up 6 days |
+| Uptime |  06:01:55 up 14:37 |
 
 ### IP Addresses:
 - `192.168.1.45/24`
@@ -329,10 +330,10 @@
 | Swap | 512MB |
 | Disk (rootfs) | local-lvm:vm-111-disk-0 |
 | Disk Size (rootfs) | size=4G |
-| Disk Free percentage (rootfs) | 19.7 percent |
+| Disk Free percentage (rootfs) | 19.8 percent |
 | Startup |  |
 | Privilege Mode | Unprivileged |
-| Uptime |  16:15:21 up 6 days |
+| Uptime |  06:02:01 up 14:37 |
 
 ### IP Addresses:
 - `192.168.1.34/24`
@@ -368,10 +369,10 @@
 | Swap | 512MB |
 | Disk (rootfs) | local-lvm:vm-112-disk-0 |
 | Disk Size (rootfs) | size=10G |
-| Disk Free percentage (rootfs) | 32.8 percent |
+| Disk Free percentage (rootfs) | 33.8 percent |
 | Startup |  |
 | Privilege Mode | Unprivileged |
-| Uptime |  16:15:40 up 19:19 |
+| Uptime |  06:02:07 up 14:37 |
 
 ### IP Addresses:
 - `192.168.1.247/24`
@@ -407,13 +408,13 @@
 | Swap | 512MB |
 | Disk (rootfs) | local-lvm:vm-113-disk-0 |
 | Disk Size (rootfs) | size=8G |
-| Disk Free percentage (rootfs) | 15.9 percent |
+| Disk Free percentage (rootfs) | 16.0 percent |
 | Startup |  |
 | Privilege Mode | Unprivileged |
-| Uptime |  16:15:59 up 6 days |
+| Uptime |  06:02:13 up 14:37 |
 
 ### IP Addresses:
-- `192.168.1.91/24`
+- `192.168.1.90/24`
 
 ## Container ID: 114
 
@@ -445,10 +446,10 @@
 | Swap | 512MB |
 | Disk (rootfs) | local-lvm:vm-114-disk-0 |
 | Disk Size (rootfs) | size=4G |
-| Disk Free percentage (rootfs) | 44.9 percent |
+| Disk Free percentage (rootfs) | 43.7 percent |
 | Startup |  |
 | Privilege Mode | Unprivileged |
-| Uptime |  16:16:18 up 6 days |
+| Uptime |  06:02:20 up 14:37 |
 
 ### IP Addresses:
 - `192.168.1.12/24`
@@ -463,14 +464,14 @@
 | --- | --- |
 | **arch** | amd64 |
 | **cores** | 2 |
-| **description** | <br><div align='center'><br>  <a href='https://community-scripts.org' target='_blank' rel='noopener noreferrer'><br>    <img src='https://raw.githubusercontent.com/community-scripts/core/main/images/logo-81x112.png' alt='Logo' style='width:81px;height:112px;'/><br>  </a><br><br>  <h2 style='font-size: 24px; margin: 20px 0;'>n8n LXC</h2><br><br>  <p style='margin: 16px 0;'><br>    <a href='https://community-scripts.org/donate' target='_blank' rel='noopener noreferrer'><br>      <img src='https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F-Sponsoring%20%26%20Donations-FF5E5B' alt='Sponsoring and donations' /><br>    </a><br>  </p><br><br>  <p style='margin: 12px 0;'><br>    <a href='https://community-scripts.org/scripts/n8n' target='_blank' rel='noopener noreferrer'><br>      <img src='https://img.shields.io/badge/%F0%9F%93%A6-Open%20Script%20Page-00617f' alt='Open script page' /><br>    </a><br>  </p><br><br>  <span style='margin: 0 10px;'><br>    <i class="fa fa-github fa-fw" style="color: #f5f5f5;"></i><br>    <a href='https://github.com/community-scripts/ProxmoxVE' target='_blank' rel='noopener noreferrer' style='text-decoration: none; color: #00617f;'>GitHub</a><br>  </span><br>  <span style='margin: 0 10px;'><br>    <i class="fa fa-comments fa-fw" style="color: #f5f5f5;"></i><br>    <a href='https://github.com/community-scripts/ProxmoxVE/discussions' target='_blank' rel='noopener noreferrer' style='text-decoration: none; color: #00617f;'>Discussions</a><br>  </span><br>  <span style='margin: 0 10px;'><br>    <i class="fa fa-exclamation-circle fa-fw" style="color: #f5f5f5;"></i><br>    <a href='https://github.com/community-scripts/ProxmoxVE/issues' target='_blank' rel='noopener noreferrer' style='text-decoration: none; color: #00617f;'>Issues</a><br>  </span><br></div> |
-| **features** | nesting=1,keyctl=1 |
+| **description** | <br><div align='center'><br>  <a href='https://community-scripts.org' target='_blank' rel='noopener noreferrer'><br>    <img src='https://raw.githubusercontent.com/community-scripts/core/main/images/logo-description.png' alt='Community-Scripts' width='192' height='112' style='width:192px;height:112px;'/><br>  </a><br><br>  <h2 style='font-size: 24px; margin: 20px 0;'>n8n LXC</h2><br><br>  <p style='margin: 16px 0;'><br>    <a href='https://community-scripts.org/donate' target='_blank' rel='noopener noreferrer'><br>      <img src='https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F-Sponsoring%20%26%20Donations-FF5E5B' alt='Sponsoring and donations' /><br>    </a><br>  </p><br><br>  <p style='margin: 12px 0;'><br>    <a href='https://community-scripts.org/scripts/n8n' target='_blank' rel='noopener noreferrer'><br>      <img src='https://img.shields.io/badge/%F0%9F%93%A6-Open%20Script%20Page-00617f' alt='Open script page' /><br>    </a><br>  </p><br><br>  <span style='margin: 0 10px;'><br>    <i class="fa fa-github fa-fw" style="color: #f5f5f5;"></i><br>    <a href='https://github.com/community-scripts/ProxmoxVE' target='_blank' rel='noopener noreferrer' style='text-decoration: none; color: #00617f;'>GitHub</a><br>  </span><br>  <span style='margin: 0 10px;'><br>    <i class="fa fa-comments fa-fw" style="color: #f5f5f5;"></i><br>    <a href='https://github.com/community-scripts/ProxmoxVE/discussions' target='_blank' rel='noopener noreferrer' style='text-decoration: none; color: #00617f;'>Discussions</a><br>  </span><br>  <span style='margin: 0 10px;'><br>    <i class="fa fa-exclamation-circle fa-fw" style="color: #f5f5f5;"></i><br>    <a href='https://github.com/community-scripts/ProxmoxVE/issues' target='_blank' rel='noopener noreferrer' style='text-decoration: none; color: #00617f;'>Issues</a><br>  </span><br></div> |
+| **features** | nesting=1,keyctl=1,mount=nfs |
 | **hostname** | n8n |
 | **memory** | 2048 |
-| **net0** | name=eth0,bridge=vmbr0,hwaddr=BC:24:11:D3:52:13,ip=dhcp,type=veth |
+| **net0** | name=eth0,bridge=vmbr0,hwaddr=BC:24:11:0E:AB:36,ip=dhcp,ip6=auto,type=veth |
 | **onboot** | 1 |
 | **ostype** | debian |
-| **rootfs** | local-lvm:vm-115-disk-0,size=10G |
+| **rootfs** | local-lvm:vm-115-disk-0,size=20G |
 | **swap** | 512 |
 | **tags** | automation;community-script |
 | **timezone** | America/New_York |
@@ -482,14 +483,14 @@
 | Memory | 2048MB |
 | Swap | 512MB |
 | Disk (rootfs) | local-lvm:vm-115-disk-0 |
-| Disk Size (rootfs) | size=10G |
-| Disk Free percentage (rootfs) | 57.3 percent |
+| Disk Size (rootfs) | size=20G |
+| Disk Free percentage (rootfs) | 22.0 percent |
 | Startup |  |
 | Privilege Mode | Unprivileged |
-| Uptime |  16:16:36 up 6 days |
+| Uptime |  06:02:26 up 14:37 |
 
 ### IP Addresses:
-- `192.168.1.163/24`
+- `192.168.1.241/24`
 
 ## Container ID: 116
 
@@ -521,29 +522,105 @@
 | Swap | 512MB |
 | Disk (rootfs) | local-lvm:vm-116-disk-0 |
 | Disk Size (rootfs) | size=20G |
-| Disk Free percentage (rootfs) | 29.5 percent |
+| Disk Free percentage (rootfs) | 29.4 percent |
 | Startup |  |
 | Privilege Mode | Unprivileged |
-| Uptime |  16:16:55 up 6 days |
+| Uptime |  06:02:32 up 14:37 |
 
 ### IP Addresses:
 - `192.168.1.18/24`
+
+## Container ID: 117
+
+### Status:
+`status: running`
+
+### Configuration:
+| Setting | Value |
+| --- | --- |
+| **arch** | amd64 |
+| **cores** | 1 |
+| **description** | <br><div align='center'><br>  <a href='https://community-scripts.org' target='_blank' rel='noopener noreferrer'><br>    <img src='https://raw.githubusercontent.com/community-scripts/core/main/images/logo-81x112.png' alt='Logo' style='width:81px;height:112px;'/><br>  </a><br><br>  <h2 style='font-size: 24px; margin: 20px 0;'>CentOS LXC</h2><br><br>  <p style='margin: 16px 0;'><br>    <a href='https://community-scripts.org/donate' target='_blank' rel='noopener noreferrer'><br>      <img src='https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F-Sponsoring%20%26%20Donations-FF5E5B' alt='Sponsoring and donations' /><br>    </a><br>  </p><br><br>  <p style='margin: 12px 0;'><br>    <a href='https://community-scripts.org/scripts/centos' target='_blank' rel='noopener noreferrer'><br>      <img src='https://img.shields.io/badge/%F0%9F%93%A6-Open%20Script%20Page-00617f' alt='Open script page' /><br>    </a><br>  </p><br><br>  <span style='margin: 0 10px;'><br>    <i class="fa fa-github fa-fw" style="color: #f5f5f5;"></i><br>    <a href='https://github.com/community-scripts/ProxmoxVE' target='_blank' rel='noopener noreferrer' style='text-decoration: none; color: #00617f;'>GitHub</a><br>  </span><br>  <span style='margin: 0 10px;'><br>    <i class="fa fa-comments fa-fw" style="color: #f5f5f5;"></i><br>    <a href='https://github.com/community-scripts/ProxmoxVE/discussions' target='_blank' rel='noopener noreferrer' style='text-decoration: none; color: #00617f;'>Discussions</a><br>  </span><br>  <span style='margin: 0 10px;'><br>    <i class="fa fa-exclamation-circle fa-fw" style="color: #f5f5f5;"></i><br>    <a href='https://github.com/community-scripts/ProxmoxVE/issues' target='_blank' rel='noopener noreferrer' style='text-decoration: none; color: #00617f;'>Issues</a><br>  </span><br></div> |
+| **features** | nesting=1,keyctl=1 |
+| **hostname** | centos |
+| **memory** | 512 |
+| **net0** | name=eth0,bridge=vmbr0,hwaddr=BC:24:11:44:69:DD,ip=dhcp,type=veth |
+| **onboot** | 1 |
+| **ostype** | centos |
+| **rootfs** | local-lvm:vm-117-disk-0,size=4G |
+| **swap** | 512 |
+| **tags** | community-script;os |
+| **timezone** | America/New_York |
+| **unprivileged** | 1 |
+
+### Resources:
+| Resource | Value |
+| --- | --- |
+| Memory | 512MB |
+| Swap | 512MB |
+| Disk (rootfs) | local-lvm:vm-117-disk-0 |
+| Disk Size (rootfs) | size=4G |
+| Disk Free percentage (rootfs) | 15.1 percent |
+| Startup |  |
+| Privilege Mode | Unprivileged |
+| Uptime |  06:02:38 up 14:37 |
+
+### IP Addresses:
+- `192.168.1.118/24`
+
+## Container ID: 119
+
+### Status:
+`status: running`
+
+### Configuration:
+| Setting | Value |
+| --- | --- |
+| **arch** | amd64 |
+| **cores** | 1 |
+| **description** | <br><div align='center'><br>  <a href='https://community-scripts.org' target='_blank' rel='noopener noreferrer'><br>    <img src='https://raw.githubusercontent.com/community-scripts/core/main/images/logo-description.png' alt='Community-Scripts' width='192' height='112' style='width:192px;height:112px;'/><br>  </a><br><br>  <h2 style='font-size: 24px; margin: 20px 0;'>Homebridge LXC</h2><br><br>  <p style='margin: 16px 0;'><br>    <a href='https://community-scripts.org/donate' target='_blank' rel='noopener noreferrer'><br>      <img src='https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F-Sponsoring%20%26%20Donations-FF5E5B' alt='Sponsoring and donations' /><br>    </a><br>  </p><br><br>  <p style='margin: 12px 0;'><br>    <a href='https://community-scripts.org/scripts/homebridge' target='_blank' rel='noopener noreferrer'><br>      <img src='https://img.shields.io/badge/%F0%9F%93%A6-Open%20Script%20Page-00617f' alt='Open script page' /><br>    </a><br>  </p><br><br>  <span style='margin: 0 10px;'><br>    <i class="fa fa-github fa-fw" style="color: #f5f5f5;"></i><br>    <a href='https://github.com/community-scripts/ProxmoxVE' target='_blank' rel='noopener noreferrer' style='text-decoration: none; color: #00617f;'>GitHub</a><br>  </span><br>  <span style='margin: 0 10px;'><br>    <i class="fa fa-comments fa-fw" style="color: #f5f5f5;"></i><br>    <a href='https://github.com/community-scripts/ProxmoxVE/discussions' target='_blank' rel='noopener noreferrer' style='text-decoration: none; color: #00617f;'>Discussions</a><br>  </span><br>  <span style='margin: 0 10px;'><br>    <i class="fa fa-exclamation-circle fa-fw" style="color: #f5f5f5;"></i><br>    <a href='https://github.com/community-scripts/ProxmoxVE/issues' target='_blank' rel='noopener noreferrer' style='text-decoration: none; color: #00617f;'>Issues</a><br>  </span><br></div> |
+| **features** | nesting=1,keyctl=1 |
+| **hostname** | homebridge |
+| **memory** | 1024 |
+| **net0** | name=eth0,bridge=vmbr0,hwaddr=BC:24:11:64:F4:CB,ip=dhcp,type=veth |
+| **onboot** | 1 |
+| **ostype** | debian |
+| **rootfs** | local-lvm:vm-119-disk-0,size=4G |
+| **swap** | 512 |
+| **tags** | community-script;homekit;smarthome |
+| **timezone** | America/New_York |
+| **unprivileged** | 1 |
+
+### Resources:
+| Resource | Value |
+| --- | --- |
+| Memory | 1024MB |
+| Swap | 512MB |
+| Disk (rootfs) | local-lvm:vm-119-disk-0 |
+| Disk Size (rootfs) | size=4G |
+| Disk Free percentage (rootfs) | 41.2 percent |
+| Startup |  |
+| Privilege Mode | Unprivileged |
+| Uptime |  06:02:45 up 14:37 |
+
+### IP Addresses:
+- `192.168.1.126/24`
 
 ## Host Disk Space Summary
 
 | Filesystem | Size | Used | Available | Use | Mounted on |
 | --- | ---: | ---: | ---: | ---: | --- |
 | udev | 14G | 0 | 14G | 0% | /dev |
-| tmpfs | 3.1G | 3.0M | 3.1G | 1% | /run |
-| /dev/mapper/pve-root | 65G | 8.3G | 53G | 14% | / |
-| tmpfs | 16G | 68M | 16G | 1% | /dev/shm |
-| efivarfs | 128K | 52K | 72K | 42% | /sys/firmware/efi/efivars |
+| tmpfs | 3.1G | 3.2M | 3.1G | 1% | /run |
+| /dev/mapper/pve-root | 94G | 21G | 69G | 23% | / |
+| tmpfs | 16G | 66M | 16G | 1% | /dev/shm |
+| efivarfs | 128K | 46K | 78K | 37% | /sys/firmware/efi/efivars |
 | tmpfs | 5.0M | 0 | 5.0M | 0% | /run/lock |
 | tmpfs | 1.0M | 0 | 1.0M | 0% | /run/credentials/systemd-journald.service |
-| tmpfs | 16G | 404K | 16G | 1% | /tmp |
-| /dev/sdb2 | 1022M | 9.1M | 1013M | 1% | /boot/efi |
-| data | 1.9T | 503G | 1.4T | 28% | /data |
-| /dev/fuse | 128M | 68K | 128M | 1% | /etc/pve |
+| tmpfs | 16G | 148K | 16G | 1% | /tmp |
+| /dev/sda2 | 1022M | 9.1M | 1013M | 1% | /boot/efi |
+| /dev/fuse | 128M | 60K | 128M | 1% | /etc/pve |
 | tmpfs | 1.0M | 0 | 1.0M | 0% | /run/credentials/getty@tty1.service |
+| data | 1.9T | 889G | 957G | 49% | /data |
 | tmpfs | 3.1G | 4.0K | 3.1G | 1% | /run/user/0 |
 
